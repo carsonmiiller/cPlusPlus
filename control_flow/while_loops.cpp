@@ -12,7 +12,6 @@ int main()
     srand(time(NULL));
     target = rand() %100 + 1;
 
-
     do
     {
         std::cout<<"Guess a number between 0 and 100, or enter \"q\" to quit\n";
